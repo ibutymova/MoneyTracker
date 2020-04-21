@@ -1,0 +1,15 @@
+<resources>
+    <plurals name="plurals_expense">
+        <item quantity="one">%d расход</item>
+        <item quantity="few">%d расхода</item>
+        <item quantity="many">%d расходов</item>
+        <item quantity="other">%d расхода</item>
+    </plurals>
+
+    <plurals name="plurals_income">
+        <item quantity="one">%d доход</item>
+        <item quantity="few">%d дохода</item>
+        <item quantity="many">%d доходов</item>
+        <item quantity="other">%d дохода</item>
+    </plurals>
+</resources>
