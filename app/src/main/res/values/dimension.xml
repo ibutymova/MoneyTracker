@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="FAB_margin">20dp</dimen>
+    <dimen name="FAB_size">56dp</dimen>
+    <dimen name="item_padding_top">5dp</dimen>
+    <dimen name="item_padding_vertical">15dp</dimen>
+    <dimen name="item_padding_horizontal">22dp</dimen>
+    <dimen name="item_name_padding_top_vertical">5dp</dimen>
+    <dimen name="item_name_padding_bottom_vertical">15dp</dimen>
+    <dimen name="item_date_padding_horizontal">5dp</dimen>
+    <dimen name="item_margin_horizontal">10dp</dimen>
+    <dimen name="item_margin_vertical">5dp</dimen>
+    <dimen name="recycler_margin_vertical"></dimen>
+    <dimen name="recycler_margin_horizontal"></dimen>
+</resources>

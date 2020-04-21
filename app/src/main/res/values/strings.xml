@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name" translatable="false">Учет бюджета</string>
+    <string name="app_name_selected_items" translatable="false">Выделено %s</string>
+
+    <string name="tab_income" translatable="false">Доходы (%s)</string>
+    <string name="tab_expense" translatable="false">Расходы (%s)</string>
+    <string name="tab_balance" translatable="false">Баланс</string>
+
+    <string-array name="tab_titles">
+        <item>@string/tab_expense</item>
+        <item>@string/tab_income</item>
+        <item>@string/tab_balance</item>
+    </string-array>
+
+    <string name="toolbar_subtitle" translatable="false">Часовой пояс: %s</string>
+
+    <string name="signIn_result_true" translatable="false">%s, Вы авторизованы!</string>
+    <string name="signIn_result_false" translatable="false">Вы не авторизованы!</string>
+
+    <string name="add_item_income" translatable="false">Новый доход</string>
+    <string name="add_item_expense" translatable="false">Новый расход</string>
+
+    <string-array name="add_item">
+        <item>@string/add_item_expense</item>
+        <item>@string/add_item_income</item>
+    </string-array>
+
+    <string name="item_income" translatable="false">Доходы</string>
+    <string name="item_expense" translatable="false">Расходы</string>
+    <string-array name="items">
+        <item>@string/item_expense</item>
+        <item>@string/item_income</item>
+    </string-array>
+
+    <string name="balance_income" translatable="false">Доход</string>
+    <string name="balance_expense" translatable="false">Расход</string>
+    <string name="balance_result" translatable="false">Ваш баланс</string>
+
+    <string name="add_item_hint" translatable="false">Название</string>
+    <string name="add_item_price_hint" translatable="false">Цена</string>
+
+    <string name="add_item_result_correct" translatable="false">%s: \"%s\"</string>
+    <string name="add_item_result_wrong" translatable="false">Ошибка! %s: \"%s\". Попробуйте добавить еще раз!</string>
+
+    <string name="remove_item_result_correct" translatable="false">%s %s</string>
+    <string name="remove_item_result_wrong" translatable="false">%s%s не были удалены. Попробуйте еще раз!</string>
+
+    <string name="start_button" translatable="false">Войти</string>
+    <string name="start_description" translatable="false">Ваш незаменимый помощник в управлении бюджетом</string>
+
+    <string name="menu_item_add" translatable="false">Добавить</string>
+    <string name="menu_item_del" translatable="false">Удалить</string>
+    <string name="menu_main_LogOut" translatable="false">Выйти</string>
+    <string name="menu_main_filter" translatable="false">Фильтр</string>
+    <string name="menu_main_search" translatable="false">Поиск</string>
+
+    <string name="confirmation_positive_result" translatable="false">Да</string>
+    <string name="confirmation_negative_result" translatable="false">Нет</string>
+    <string name="confirmation_message_remove" translatable="false">Вы действительно хотите удалить %s?</string>
+    <string name="confirmation_message_logout" translatable="false">Вы действительно хотите выйти?</string>
+
+    <string name="logout_result_correct" translatable="false">Сеанс работы завершен!</string>
+    <string name="logout_result_wrong" translatable="false">Ошибка завершения сеанса работы!</string>
+
+    <string name="current_date" translatable="false">01.01.2020</string>
+    <string name="search_hint" translatable="false">Поиск &#8230;</string>
+
+    <plurals name="plurals_expense">
+        <item quantity="one">%d расход</item>
+        <item quantity="few">%d расхода</item>
+        <item quantity="many">%d расходов</item>
+        <item quantity="other">%d расхода</item>
+    </plurals>
+
+    <plurals name="plurals_income">
+        <item quantity="one">%d доход</item>
+        <item quantity="few">%d дохода</item>
+        <item quantity="many">%d доходов</item>
+        <item quantity="other">%d дохода</item>
+    </plurals>
+
+    <plurals name="plurals_remove">
+        <item quantity="one">Удален</item>
+        <item quantity="other">Удалено</item>
+    </plurals>
+
+    <string name="RUB" translatable="false">₽</string>
+    <string name="price_format" translatable="false">%s %s</string>
+    <string name="moneyTracker" translatable="false">MoneyTracker</string>
+    <string name="signIn" translatable="false">Войти</string>
+
+    <string name="notification_timezone_title" translatable="false">Изменился часовой пояс!</string>
+    <string name="notification_timezone_description" translatable="false">%s (%s)</string>
+    <string name="notification_timezone_channel_name" translatable="false">Часовой пояс</string>
+    <string name="notification_timezone_channel_description" translatable="false">Уведомлять об изменении часового пояса</string>
+    <string name="timezone_change_toast" translatable="false">Изменился часовой пояс!</string>
+    <string name="balance_error" translatable="false">Диаграмма не обновлена!</string>
+    <string name="get_items_api_error" translatable="false">Ошибка загрузки данных с сервера!</string>
+    <string name="get_items_database_error" translatable="false">Ошибка обновления данных!</string>
+    <string name="timezone_offset" translatable="false">ZZZZ</string>
+</resources>
